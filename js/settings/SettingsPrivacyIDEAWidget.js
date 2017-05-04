@@ -21,7 +21,7 @@ Zarafa.plugins.privacyidea.settings.SettingsPrivacyIDEAWidget = Ext.extend(Zaraf
 			items: [{
 				xtype: "displayfield",
 				hideLabel: true,
-				value: dgettext("plugin_privacyidea", "The two-factor authentication provides an additional protection for the Zarafa WebApp.") + "<br />" +
+				value: dgettext("plugin_privacyidea", "The two-factor authentication provides an additional protection for the WebApp.") + "<br />" +
 					dgettext("plugin_privacyidea", "After activation you need a Yubikey OTP next to your password to log in.") + "<br />"
 			}, {
 				xtype: "button",
