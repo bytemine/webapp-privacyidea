@@ -18,12 +18,6 @@ if(!function_exists('radius_auth')) {
 class PluginPrivacyIDEA extends Plugin {
 
 	/**
-	 * Constructor
-	 */
-	function PluginPrivacyIDEA() {
-	}
-
-	/**
 	 * Function initializes the Plugin and registers all hooks
 	 */
 	function init() {
