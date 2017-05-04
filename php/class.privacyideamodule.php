@@ -21,7 +21,12 @@ class PrivacyIDEAModule extends Module {
 	 * @param array $data list of all actions, which is received from the client
 	 */
 	public function __construct($id, $data) {
-		parent::Module($id, $data);
+		# in Kopano WebApp the construct method is used explicitely
+		if(is_callable('parent::__construct')) {
+			parent::__construct($id, $data);
+		} else {
+			parent::Module($id, $data);
+		}
 	}
 
 	/**
