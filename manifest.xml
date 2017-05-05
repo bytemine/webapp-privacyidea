@@ -2,7 +2,7 @@
 <!DOCTYPE plugin SYSTEM "manifest.dtd">
 <plugin version="2">
 	<info>
-		<version>0.2.0</version>
+		<version>0.2.1</version>
 		<name>privacyidea</name>
 		<title>PrivacyIDEA</title>
 		<author>Daniel Rauer, bytemine GmbH</author>
